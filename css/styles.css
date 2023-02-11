@@ -1,0 +1,181 @@
+h1 {
+    font-family: 'Montserrat ', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: "Montserrat" sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Montserrat" sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+p {
+    color: #8f8f8f;
+    text-align: center;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+#features {
+    padding: 7% 25%;
+    z-index: 1;
+    position: relative;
+    background-color: #fff;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#footer {
+    background-color: #fff;
+    color: #8f8f8f;
+    padding: 6% 8%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 2% 10%;
+    padding-bottom: 13%;
+}
+
+.tindog_image {
+    transform: rotate(25deg);
+    max-width: 60%;
+    position: absolute;
+
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+.icon {
+    color: #ef8172;
+    width: 100%;
+    text-align: center;
+}
+
+.pros {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.feature-box {
+    margin: 5% 0;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+.image_tima {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.press_logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.image_vlad {
+    border-radius: 100%;
+    width: 19%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.cta-header {
+    font-family: "Montserrat" sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    padding: auto 50%;
+    margin-bottom: 5%;
+    line-height: 1.5;
+
+}
+
+.footer-icons {
+    color: black;
+}
+
+.ok {
+    margin: 1%;
+}
+
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .tindog_image {
+        position: static;
+        transform: rotate(0);
+    }
+}
